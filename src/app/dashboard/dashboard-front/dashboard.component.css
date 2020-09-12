@@ -1,0 +1,44 @@
+.example-container {
+    /* height: 90vh;
+    width: 100vw;
+    padding: 2px;
+    /*margin:0 10%; */
+    /*overflow: hidden; */
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+.table-heading {
+  margin: 2px auto;
+  text-align: center;  
+  }
+
+.center-text {
+  margin: 0 auto;
+  font-weight: bolder;
+  font-size: 3em;
+  padding: 4px;
+}
+
+.table{
+  overflow-x: auto;
+}
+
+table {
+    width:100%;
+    background-color : #808080;
+  }
+
+th.mat-header-cell {
+    text-align: left;
+    background: #ffa64d;
+    color: black;
+    border: 1px groove #e0e0e0;
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+    padding: 8px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
