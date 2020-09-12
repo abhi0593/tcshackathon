@@ -6,9 +6,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   } */
-  span {
-    margin-left: 2%;
-  }
   h1,
   h2,
   h3,
@@ -41,6 +38,15 @@
     background-color: #1976d2;
     color: white;
     font-weight: 600;
+  }
+
+  .brand-name{
+    padding: 8px;;
+  }
+  .brand-name:hover{
+    background: #8dbff2;
+    color:white;
+    cursor: pointer;
   }
 
   .toolbar img {

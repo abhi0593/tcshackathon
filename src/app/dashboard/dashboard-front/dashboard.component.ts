@@ -8,7 +8,7 @@ import { MatTableDataSource } from '@angular/material/table';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit, AfterViewInit {
+export class DashboardComponent implements OnInit {
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   displayedColumns = [];
@@ -18,19 +18,13 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   constructor(private counterPartyAnalyticsService:CounterPartyAnalyticsService) { 
     
   }
-  ngAfterViewInit(): void {
-    
-    console.log('paginator set');
-    
-    
-  }
 
   ngOnInit(): void {
     this.counterPartyAnalyticsService.getCounterPartyData().subscribe(data=>{
       
       this.ELEMENT_DATA = data;
       this.dataSource = new MatTableDataSource(this.ELEMENT_DATA);
-      console.log('dataSource:'+this.dataSource);
+      console.log('dataSource:'+JSON.stringify(data));
       this.dataSource.paginator = this.paginator;
             
       
