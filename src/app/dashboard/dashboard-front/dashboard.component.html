@@ -9,7 +9,7 @@
       <!-- Position Column -->
       <ng-container matColumnDef="Counterparty">
         <th mat-header-cell *matHeaderCellDef> Counterparty </th>
-        <td mat-cell *matCellDef="let element"><a routerLink="/detail/1" >{{element.id}} </a></td>
+        <td mat-cell *matCellDef="let element"><a routerLink="/detail/{{element.Id}}" >{{element.Counterparty}} </a></td>
       </ng-container>
   
       <!-- Name Column -->
