@@ -11,7 +11,9 @@
 
 .table-heading {
   margin: 2px auto;
-  text-align: center;  
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
   }
 
 .center-text {
@@ -42,3 +44,15 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
     border-bottom-width: 1px;
     border-bottom-style: solid;
 }
+.dashboardlink
+{
+color: BLACK;  
+}
+
+.mat-row:nth-child(even){
+  background-color: #ffe5cc;
+  }
+
+.mat-row:nth-child(odd){
+  background-color:#FFFFFF;
+  }

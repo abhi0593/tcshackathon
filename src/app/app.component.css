@@ -224,13 +224,14 @@
   }
 
   footer {
-    position: absolute;
-    margin-top: 8px;
-    margin-left: 45%;
+    position: absolute;    
+    background:#ffa64d;
     display: flex;
     bottom: 0;
     align-items: center;
-    line-height: 20px;
+    height: 4%;
+    width: 90%;
+    margin-left: 4%;
   }
 
   footer a {
@@ -239,7 +240,9 @@
     padding: 10%;
     align-items: center;
   }
-
+  .footer{
+    margin: 0 auto;}
+    
   .github-star-badge {
     color: #24292e;
     display: flex;
