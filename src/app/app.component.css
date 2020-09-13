@@ -97,7 +97,7 @@
   }
 
   footer {
-    position: relative;    
+    position: absolute;    
     background:#ffa64d;
     display: flex;
     bottom: 0;
@@ -179,4 +179,14 @@
       display: none;
       visibility: hidden;
     }
+  }
+  .dvMenu a
+  {
+    color: #b0bec5;
+    margin:0 16px;
+  }
+  
+  .dvMenu a:hover
+  {
+    color: #125699;
   }

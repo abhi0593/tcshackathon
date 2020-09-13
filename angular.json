@@ -126,5 +126,8 @@
       }
     }
   },
-  "defaultProject": "ews-app"
+  "defaultProject": "ews-app",
+  "cli": {
+    "analytics": false
+  }
 }
