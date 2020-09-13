@@ -8,7 +8,7 @@
   
       <!-- Position Column -->
       <ng-container matColumnDef="Counterparty">
-        <th mat-header-cell *matHeaderCellDef> Counterparty </th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Counterparty </th>
         <td mat-cell *matCellDef="let element"><a class="dashboardlink" routerLink="/detail/{{element.Id}}" >{{element.Counterparty}} </a></td>
       </ng-container>
   
@@ -35,7 +35,7 @@
       </ng-container>
 
       <ng-container matColumnDef="NewsAnalyticsScore">
-        <th mat-header-cell *matHeaderCellDef> News Analytics Score </th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> News Analytics Score </th>
         <td mat-cell *matCellDef="let element"
         [ngClass]="{
             'red' : element.NewsAnalyticsScore >= 95,
@@ -57,7 +57,7 @@
       </ng-container>
 
       <ng-container matColumnDef="LastRefreshTime">
-        <th mat-header-cell *matHeaderCellDef> Last Refresh Time </th>
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Last Refresh Time </th>
         <td mat-cell *matCellDef="let element"> {{element.LastRefreshTime}} </td>
       </ng-container>
   

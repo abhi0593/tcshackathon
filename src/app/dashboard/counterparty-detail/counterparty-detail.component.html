@@ -1,1 +1,28 @@
-<p>counterparty-detail works!</p>
+<!-- <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile
+        [style.background]="'lightblue'">
+      <app-chart></app-chart>
+    </mat-grid-tile>
+    <mat-grid-tile
+        [style.background]="'lightgreen'">
+      <app-news></app-news>
+    </mat-grid-tile>
+    <mat-grid-tile
+        [colspan]="2"
+        [style.background]="'lightpink'">
+    <app-news-source></app-news-source>
+    </mat-grid-tile>
+  </mat-grid-list> -->
+<div class="flexboxcontainer">
+  <div>
+    <app-chart></app-chart>
+  </div>
+  <div>
+    <app-news></app-news>
+  </div> 
+</div>
+<div class="flexboxcontainer">
+  <div>
+    <app-news-source></app-news-source>
+  </div>
+</div>

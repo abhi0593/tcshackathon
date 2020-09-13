@@ -1,0 +1,14 @@
+.flexboxcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.flexboxcontainer > div {
+    width: 700px;
+    margin: 10px;
+    /*text-align: center;
+    line-height: 75px;
+    font-size: 30px;*/
+  }

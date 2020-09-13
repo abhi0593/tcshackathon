@@ -1,0 +1,42 @@
+[
+    {
+        "Source":"Fortune",
+        "Type":"News",
+        "Geography":"US",
+        "NegativeArticle":"33",
+        "TotalScore":"80",
+        "LastReferred":"2020-07-20 14:00:54"
+    },
+    {
+        "Source":"AL.com",
+        "Type":"News",
+        "Geography":"US",
+        "NegativeArticle":"1",
+        "TotalScore":"78",
+        "LastReferred":"2020-07-20 14:00:54"
+    },
+    {
+        "Source":"LA Times",
+        "Type":"News",
+        "Geography":"US",
+        "NegativeArticle":"11",
+        "TotalScore":"77",
+        "LastReferred":"2020-07-20 14:00:54"
+    },
+    {
+        "Source":"BBC",
+        "Type":"News",
+        "Geography":"US",
+        "NegativeArticle":"3",
+        "TotalScore":"66",
+        "LastReferred":"2020-07-20 14:00:54"
+    },    
+    {
+        "Source":"Reuters",
+        "Type":"News",
+        "Geography":"US",
+        "NegativeArticle":"13",
+        "TotalScore":"40",
+        "LastReferred":"2020-07-20 14:00:54"
+    }
+]
