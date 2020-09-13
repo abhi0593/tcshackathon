@@ -43,12 +43,29 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
     padding: 8px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
+    color: black;
 }
 .dashboardlink
 {
 color: BLACK;  
 }
 
+.red{
+  background: red;
+  color: white;
+}
+.orange{
+  background: orange;
+  color: white;
+}
+.yellow{
+  background: yellow;
+  color: white;
+}
+.green{
+  background: green;
+  color: white;
+}
 .mat-row:nth-child(even){
   background-color: #ffe5cc;
   }
