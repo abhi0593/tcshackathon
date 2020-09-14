@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
-import { Chart } from 'chart.js';
+import Chart from 'chart.js';
 
 @Component({
   selector: 'app-chart',
@@ -20,8 +20,8 @@ var chart = new Chart(ctx, {
     data: {
         labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
         datasets: [{
-            label: 'My First dataset',
-            backgroundColor: 'rgb(255, 99, 132)',
+            label: 'Analytics Score',
+            backgroundColor: 'rgb(255, 166, 77)', //'rgb(255, 99, 132)',
             borderColor: 'rgb(255, 99, 132)',
             data: [0, 10, 5, 2, 20, 30, 45]
         }]
