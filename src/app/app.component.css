@@ -190,3 +190,7 @@
   {
     color: #125699;
   }
+
+  .mat-paginator {
+    background: #9a9898;
+}

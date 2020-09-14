@@ -24,3 +24,7 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
 .mat-row:nth-child(odd){
     background-color:#FFFFFF;
 }
+
+ .mat-paginator {
+    background: #9a9898;
+}
