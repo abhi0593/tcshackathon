@@ -23,6 +23,12 @@
   padding: 4px;
 }
 
+.mat-form-field {
+  font-size: 14px;
+  width: 40%;
+  margin-left:60%;
+}
+
 .table{
   overflow-x: auto;
 }
