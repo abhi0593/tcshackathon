@@ -3,11 +3,13 @@
     flex-direction: row;
     justify-content: center;
     align-content: space-around;
+    align-items: stretch;
 }
 
 .flexboxcontainer > div {
-    width: 700px;
+    /*width: 700px;*/
     margin: 10px;
+    flex: 1;
     /*text-align: center;
     line-height: 75px;
     font-size: 30px;*/
