@@ -29,6 +29,25 @@
   margin-left:60%;
 }
 
+::ng-deep .mat-form-field-appearance-legacy .mat-form-field-label {
+  /* color: rgba(255,255,255,.7); */
+  color: black !important;
+}
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color: black !important;
+ }
+
+ ::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color: black !important;
+} 
+
+::ng-deep.mat-form-field-ripple {
+ /*change color of underline when focused*/
+ background-color: black !important;;
+}
+
 .table{
   overflow-x: auto;
 }
@@ -86,10 +105,7 @@ color: BLACK;
 
   .mat-paginator {
     background: #9a9898;
+    margin-bottom: 100px;
 }
 
-.mat-form-field-label
-{
-  color: black !important
-}
 

@@ -96,15 +96,25 @@
     color: #125699;
   }
 
+  #footer { 
+    position: fixed; 
+    padding: 20px 10px 0px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    /* Height of the footer*/  
+    height: 20px; 
+    background: #ffa64d; 
+    align-items: center;
+} 
+
   footer {
-    position: absolute;    
+    position: fixed;    
     background:#ffa64d;
     display: flex;
     bottom: 0;
     align-items: center;
     height: 4%;
-    width: 90%;
-    margin-left: 4%;
+    width: 100%;
   }
 
   footer a {
