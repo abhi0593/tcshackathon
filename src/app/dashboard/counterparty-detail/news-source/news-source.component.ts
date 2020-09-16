@@ -24,7 +24,6 @@ export class NewsSourceComponent implements OnInit {
       
       this.ELEMENT_DATA = data;
       this.dataSource = new MatTableDataSource(this.ELEMENT_DATA);
-      console.log('dataSource:'+JSON.stringify(data));
       this.dataSource.paginator = this.paginator;
             
       

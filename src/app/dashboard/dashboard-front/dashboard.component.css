@@ -76,23 +76,23 @@ color: BLACK;
 }
 
 .red{
-  background: red;
-  color: white;
+  /*background: red;*/
+  color: red !important;
   text-align: right
 }
 .orange{
-  background: orange;
-  color: white;
+  /*background: orange;*/
+  color: orange !important;
   text-align: right
 }
 .yellow{
-  background: yellow;
-  color: white;
+  /*background: yellow;*/
+  color: yellow !important;
   text-align: right
 }
 .green{
-  background: green;
-  color: white;
+  /*background: green;*/
+  color: green !important;
   text-align: right
 }
 .mat-row:nth-child(even){
@@ -105,7 +105,7 @@ color: BLACK;
 
   .mat-paginator {
     background: #9a9898;
-    margin-bottom: 100px;
+    /*margin-bottom: 100px;*/
 }
 
 

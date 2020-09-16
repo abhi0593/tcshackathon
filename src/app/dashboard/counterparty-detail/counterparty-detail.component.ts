@@ -1,10 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-export interface Tile {
-  color: string;
-  cols: number;
-  rows: number;
-  text: string;
-}
+import { ActivatedRoute } from '@angular/router';
+import { CounterPartyAnalyticsService } from 'src/app/services/counter-party-analytics.service';
 
 @Component({
   selector: 'app-counterparty-detail',
@@ -13,15 +9,19 @@ export interface Tile {
 })
 export class CounterpartyDetailComponent implements OnInit {
 
-  constructor() { }
+  constructor(private activatedRoute: ActivatedRoute, private counterPartyService: CounterPartyAnalyticsService ) { }
 
+  counterPartyName:String;
+  id:number;
   ngOnInit(): void {
+    this.id = this.activatedRoute.snapshot.params.id;
+    console.log('id:'+this.id)
+    this.counterPartyService.getSingleCounterParty(this.id).subscribe(data=>{
+      this.counterPartyName = data;
+    })
+
+
   }
-  tiles: Tile[] = [
-    {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
-    {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
-    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
-  ];
+  
 
 }

@@ -26,7 +26,6 @@ export class DashboardComponent implements OnInit {
       
       this.ELEMENT_DATA = data;
       this.dataSource = new MatTableDataSource(this.ELEMENT_DATA);
-      console.log('dataSource:'+JSON.stringify(data));
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
             
