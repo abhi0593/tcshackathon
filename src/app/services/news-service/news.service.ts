@@ -8,7 +8,7 @@ export class NewsService {
 
   constructor(private http:HttpClient) { }
 
-  getCounterPartyNews(){
-    return this.http.get('assets/News.json');
+  getCounterPartyNews(id){
+    return this.http.get('assets/News_'+ id +'.json');
   }
 }

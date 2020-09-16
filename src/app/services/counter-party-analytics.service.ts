@@ -21,8 +21,8 @@ export class CounterPartyAnalyticsService {
     this.getCounterPartyData().subscribe(data=>{
       this.counterparties = data;
       console.log('counterparty:'+this.counterparties);
-      console.log(this.counterparties[id].Id);
-      subject.next(this.counterparties[id].Counterparty);      
+      console.log(this.counterparties[id-1].Id);
+      subject.next(this.counterparties[id-1].Counterparty);      
 
     });
     return subject.asObservable();

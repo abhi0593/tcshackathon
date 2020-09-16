@@ -28,3 +28,8 @@ th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
  .mat-paginator {
     background: #9a9898;
 }
+
+.dashboardlink
+{
+color: BLACK;  
+}
