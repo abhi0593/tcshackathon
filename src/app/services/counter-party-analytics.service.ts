@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { of, Subject } from 'rxjs';
+import { BehaviorSubject, of, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +13,13 @@ export class CounterPartyAnalyticsService {
 
 
   getCounterPartyData(){
-    return this.http.get('assets/CounterPartyAnalytics.json');
+    // return this.http.get('assets/CounterPartyAnalytics.json');
+    var subject = new BehaviorSubject<any>({});
+    this.http.get('assets/CounterPartyAnalytics.json').subscribe(data=>{
+      this.counterparties = data;
+      subject.next(this.counterparties);
+    });
+    return subject.asObservable();
   }
 
   getSingleCounterParty(id:number){
