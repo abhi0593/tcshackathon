@@ -1,4 +1,6 @@
-[{
+{
+    "CounterParties":
+    [{
     "Id":"1",
     "Counterparty":"RaboSpy caught",
     "UltimateParentCounterParty": "RaboSpy",
@@ -323,3 +325,4 @@
     "LastRefreshTime":"2017-10-05 12:58:12"
 }
 ]
+}

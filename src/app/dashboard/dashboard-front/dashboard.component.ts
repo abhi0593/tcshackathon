@@ -24,7 +24,9 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
     this.counterPartyAnalyticsService.getCounterPartyData().subscribe(data=>{
       
-      this.ELEMENT_DATA = data;
+      this.ELEMENT_DATA = data['CounterParties'];
+      console.log('data:'+data);
+      console.log('Element_Data:'+this.ELEMENT_DATA);
       this.dataSource = new MatTableDataSource(this.ELEMENT_DATA);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
