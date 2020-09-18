@@ -11,6 +11,7 @@ import { CounterpartyDetailComponent } from './dashboard/counterparty-detail/cou
 import { ChartComponent } from './dashboard/counterparty-detail/chart/chart.component';
 import { NewsComponent } from './dashboard/counterparty-detail/news/news.component';
 import { NewsSourceComponent } from './dashboard/counterparty-detail/news-source/news-source.component';
+import { CounterpartyNewsComponent } from './dashboard/counterparty-news/counterparty-news.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NewsSourceComponent } from './dashboard/counterparty-detail/news-source
     CounterpartyDetailComponent,
     ChartComponent,
     NewsComponent,
-    NewsSourceComponent
+    NewsSourceComponent,
+    CounterpartyNewsComponent
   ],
   imports: [
     BrowserModule,

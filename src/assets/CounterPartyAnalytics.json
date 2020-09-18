@@ -1,5 +1,5 @@
-{
-    "CounterParties":
+ {
+     "CounterParties":
     [{
     "Id":"1",
     "Counterparty":"RaboSpy caught",
@@ -7,7 +7,7 @@
     "BanLegalEntity":"NBNA-WAG",
     "MTMNet":"(432)",
     "CVA":"21.0",
-    "NewsAnalyticsScore":"95.00",
+    "NewsAnalyticsScore":"100.00",
     "PredictedProbablity":"1.0",
     "CreditRating":"BBB+",
     "LastRefreshTime":"2017-10-05 12:58:12"
