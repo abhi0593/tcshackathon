@@ -62,7 +62,7 @@ export class ChartComponent implements OnInit, AfterViewInit {
             borderColor: 'rgb(0, 0, 102)',//'rgb(255, 99, 132)',
             //data: [0, 10, 5, 2, 20, 30, 45]
             data: this.dataforChart,
-            fill: false
+            fill: true
         }]
     },
 

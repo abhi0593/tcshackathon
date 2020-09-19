@@ -8,7 +8,7 @@
     "LatestPD":39,
     "NewsAnalyticsScore":"100.00",
     "PredictedRRR":"D1",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-06-05 12:58:12"
 },
 {
     "Id":2,
@@ -18,7 +18,7 @@
     "LatestPD":"15",
     "NewsAnalyticsScore":"87.00",
     "PredictedRRR":"R20",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-06-01 11:58:12"
 },
 {
     "Id":3,
@@ -26,9 +26,9 @@
     "ObligorId":"9567",
     "LatestRRR":"R13",
     "LatestPD":"39",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"80.00",
     "PredictedRRR":"R14",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-05-05 05:45:10"
 },
 {
     "Id":4,
@@ -36,9 +36,9 @@
     "ObligorId":"58645",
     "LatestRRR":"R14",
     "LatestPD":"49",
-    "NewsAnalyticsScore":"65.00",
+    "NewsAnalyticsScore":"75.00",
     "PredictedRRR":"R17",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-04-25 11:58:55"
 },
 {
     "Id":5,
@@ -46,9 +46,9 @@
     "ObligorId":"78965",
     "LatestRRR":"R20",
     "LatestPD":"40",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"70.00",
     "PredictedRRR":"R12",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-04-02 12:58:12"
 },
 {
     "Id":6,
@@ -56,9 +56,9 @@
     "ObligorId":"4523",
     "LatestRRR":"R23",
     "LatestPD":"20",
-    "NewsAnalyticsScore":"78.00",
+    "NewsAnalyticsScore":"72.00",
     "PredictedRRR":"R23",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2020-03-26 12:58:12"
 },
 {
     "Id":7,
@@ -66,9 +66,9 @@
     "ObligorId":"1234",
     "LatestRRR":"R31",
     "LatestPD":"21",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"65.00",
     "PredictedRRR":"R12",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2019-12-20 12:50:05"
 },
 {
     "Id":8,
@@ -76,9 +76,9 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2019-12-12 12:57:24"
 },
 {
     "Id":9,
@@ -86,9 +86,9 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2019-12-05 12:58:12"
 },
 {
     "Id":10,
@@ -96,9 +96,9 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
-    "LastRefreshTime":"2017-10-05 12:58:12"
+    "LastRefreshTime":"2019-11-16 12:58:12"
 },
 {
     "Id":11,
@@ -106,7 +106,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -116,17 +116,17 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
 {
     "Id":13,
-    "Counterparty":"Jumbo",
-    "ObligorId":"4689",
+    "Counterparty":"JumboCo",
+    "ObligorId":"46892",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"50.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -136,7 +136,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -146,7 +146,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -156,7 +156,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -166,7 +166,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -176,7 +176,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -186,7 +186,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -196,7 +196,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -206,7 +206,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 },
@@ -216,7 +216,7 @@
     "ObligorId":"4689",
     "LatestRRR":"R20",
     "LatestPD":"14",
-    "NewsAnalyticsScore":"87.00",
+    "NewsAnalyticsScore":"61.00",
     "PredictedRRR":"R23",
     "LastRefreshTime":"2017-10-05 12:58:12"
 }
