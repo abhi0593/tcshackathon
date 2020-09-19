@@ -43,7 +43,7 @@ export class DashboardComponent implements OnInit {
     //   this.dataSource.sort = this.sort;          
       
     // })
-    this.displayedColumns = ['Counterparty', 'UltimateParentCounterParty', 'BanLegalEntity', 'MTMNet','CVA','NewsAnalyticsScore','PredictedProbablity','CreditRating','LastRefreshTime'];    
+    this.displayedColumns = ['Counterparty', 'ObligorId', 'LatestRRR', 'LatestPD', 'NewsAnalyticsScore', 'PredictedRRR','LastRefreshTime'];    
   
   }
 
