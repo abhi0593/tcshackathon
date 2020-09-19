@@ -13,27 +13,42 @@ export class ChartComponent implements OnInit, AfterViewInit {
   @ViewChild('myChart') myChart:ElementRef;
 
   allDataForChart;
-  dataforChart=[];
+  dataforChart;
   id;
+  chart:any;
   constructor(private chartService:ChartService, private activatedRoute:ActivatedRoute) { }
   ngOnInit(): void {
     this.id = this.activatedRoute.snapshot.params.id;
-    this.chartService.getSingleChartData(this.id).subscribe(data=>{
+    console.log('id for chart:'+this.id);
+
+    this.chartService.getSingleChartData(this.id).subscribe((data)=>{
       this.allDataForChart = data;
       console.log('allDataforchart:'+JSON.stringify(this.allDataForChart));
-      if(this.id<=3)
-        {this.dataforChart = this.allDataForChart[`${this.id}`].split(',');
-        console.log('Current data for chart'+this.dataforChart.split(','));
+      if(this.id<=this.allDataForChart.length)
+        {this.dataforChart = this.allDataForChart[`${this.id}`] as any[];
+        console.log('Current data for chart'+this.dataforChart);
       }
       else
-        this.dataforChart = this.allDataForChart['1'].split(',');
+        this.dataforChart = this.allDataForChart['1'] as any[];
+    })
+
+    this.chartService.getChartDataBehaviorSubject().subscribe((data)=>{
+      this.allDataForChart = data;
+      if(this.id<=this.allDataForChart.length)
+      {
+        this.dataforChart = this.allDataForChart[`${this.id}`];
+      }
+      else
+        this.dataforChart = this.allDataForChart['1'];
+
+      this.updateChartData(this.chart,this.dataforChart,0);
     })
     
   }
   
   ngAfterViewInit(): void {
     var ctx = this.myChart.nativeElement.getContext('2d');
-var chart = new Chart(ctx, {
+    this.chart = new Chart(ctx, {
     // The type of chart we want to create
     type: 'line',
 
@@ -43,15 +58,26 @@ var chart = new Chart(ctx, {
         datasets: [{
             label: 'Analytics Score',
             backgroundColor: 'rgb(255, 166, 77)', //'rgb(255, 99, 132)',
-            borderColor: 'rgb(255, 99, 132)',
+            borderColor: 'rgb(0, 0, 102)',//'rgb(255, 99, 132)',
             //data: [0, 10, 5, 2, 20, 30, 45]
-            data: this.dataforChart
+            data: this.dataforChart,
+            fill: false
         }]
     },
 
     // Configuration options go here
     options: {}
 });
+console.log('chart:',this.chart);
+  }
+
+  updateChartData(chart,dataforChart,dataSetIndex){
+    if(chart==null || chart=='undefined'){}
+    else{
+    chart.data.datasets[dataSetIndex].data = dataforChart;
+    chart.update();
+  }
+
   }
 
 

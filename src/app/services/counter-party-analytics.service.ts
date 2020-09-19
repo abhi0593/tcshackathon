@@ -25,11 +25,11 @@ export class CounterPartyAnalyticsService {
 
   getCounterPartyDataLive(){
     this.getCounterPartyData();
-    setTimeout(()=>this.getCounterPartyData(),50000);
+    setTimeout(()=>this.getCounterPartyData(),5000);
   }
 
   getCounterPartyData(){
-    this.http.get('http://localhost:3000/listCounterParties').subscribe(data=>{
+    this.http.get('assets/CounterPartyAnalytics.json').subscribe(data=>{
       this.allcounterparties = data;
       console.log('data received from API');
       this.CounterPartySubject.next(this.allcounterparties);
@@ -41,10 +41,9 @@ export class CounterPartyAnalyticsService {
   getSingleCounterParty(id:number){
     var subject = new Subject<string>();
     this.getCounterPartyData().subscribe(data=>{
+      console.log('Counterparties received for SingleParty:'+data);
       this.singleCounterParty = data['CounterParties'];
-      console.log('counterparty:'+this.singleCounterParty);
-      console.log(this.singleCounterParty[id-1].Id);
-      subject.next(this.singleCounterParty[id-1].Counterparty);      
+      subject.next(this.singleCounterParty[id-1].Counterparty);     
 
     });
     return subject.asObservable();
