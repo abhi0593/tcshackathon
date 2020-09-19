@@ -24,7 +24,8 @@ export class ChartComponent implements OnInit, AfterViewInit {
     this.chartService.getSingleChartData(this.id).subscribe((data)=>{
       this.allDataForChart = data;
       console.log('allDataforchart:'+JSON.stringify(this.allDataForChart));
-      if(this.id<=this.allDataForChart.length)
+      console.log(this.allDataForChart.length)
+      if(this.id<=Object.keys(this.allDataForChart).length)
         {this.dataforChart = this.allDataForChart[`${this.id}`] as any[];
         console.log('Current data for chart'+this.dataforChart);
       }
@@ -34,7 +35,7 @@ export class ChartComponent implements OnInit, AfterViewInit {
 
     this.chartService.getChartDataBehaviorSubject().subscribe((data)=>{
       this.allDataForChart = data;
-      if(this.id<=this.allDataForChart.length)
+      if(this.id<=Object.keys(this.allDataForChart).length)
       {
         this.dataforChart = this.allDataForChart[`${this.id}`];
       }
