@@ -5,7 +5,7 @@
     
         <ng-container matColumnDef="NewsHeader">
           <th mat-header-cell *matHeaderCellDef> News Header </th>
-          <td mat-cell *matCellDef="let element"> <a class="dashboardlink" routerLink="/detail/{{element.Id}}" >{{element.NewsHeader}} </a></td>
+          <td mat-cell *matCellDef="let element"> <a class="dashboardlink" routerLink="{{element.Url}}" >{{element.NewsHeader}} </a></td>
         </ng-container>
     
         <ng-container matColumnDef="PublishDateTime">
