@@ -1,23 +1,28 @@
 [
     {
         "NewsHeader":"Shares of RaboSpy radar fell by 35% yesterday",
-        "PublishDateTime":"2020-07-20 14:00:54"
+        "PublishDateTime":"2020-07-20 14:00:54",
+        "Url":"#"
     },
     {
         "NewsHeader":"RaboSpy radar plans large scale layoffs",
-        "PublishDateTime":"2020-07-20 14:00:54"
+        "PublishDateTime":"2020-07-20 14:00:54",
+        "Url":"#"
     },
     {
         "NewsHeader":"RaboSpy radar posts third quarterly loss",
-        "PublishDateTime":"2020-07-20 14:00:54"
+        "PublishDateTime":"2020-07-20 14:00:54",
+        "Url":"#"
     },
     {
         "NewsHeader":"RaboSpy radar is in trouble",
-        "PublishDateTime":"2020-07-20 14:00:54"
+        "PublishDateTime":"2020-07-20 14:00:54",
+        "Url":"#"
     },
     {
         "NewsHeader":"RaboSpy radar may seek crediter protection",
-        "PublishDateTime":"2020-07-20 14:00:54"
+        "PublishDateTime":"2020-07-20 14:00:54",
+        "Url":"#"
     }
 
 ]

@@ -20,12 +20,11 @@
       </ng-container>
   
       <!-- Name Column -->
-      <ng-container matColumnDef="UltimateParentCounterParty">
+      <!-- <ng-container matColumnDef="UltimateParentCounterParty">
         <th mat-header-cell *matHeaderCellDef> Ultimate Parent CounterParty </th>
         <td mat-cell *matCellDef="let element"> {{element.UltimateParentCounterParty}} </td>
       </ng-container>
   
-      <!-- Weight Column -->
       <ng-container matColumnDef="BanLegalEntity">
         <th mat-header-cell *matHeaderCellDef> Ban Legal Entity </th>
         <td mat-cell *matCellDef="let element"> {{element.BanLegalEntity}} </td>
@@ -39,6 +38,21 @@
       <ng-container matColumnDef="CVA">
         <th mat-header-cell *matHeaderCellDef> CVA </th>
         <td mat-cell *matCellDef="let element"> {{element.CVA}} </td>
+      </ng-container> -->
+
+      <ng-container matColumnDef="ObligorId">
+        <th mat-header-cell *matHeaderCellDef> ObligorId</th>
+        <td mat-cell *matCellDef="let element"> {{element.ObligorId}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="LatestRRR">
+        <th mat-header-cell *matHeaderCellDef> Latest Rabobank Risk Rating</th>
+        <td mat-cell *matCellDef="let element"> {{element.LatestRRR}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="LatestPD">
+        <th mat-header-cell *matHeaderCellDef> Latest PD </th>
+        <td mat-cell *matCellDef="let element"> {{element.LatestPD}} </td>
       </ng-container>
 
       <ng-container matColumnDef="NewsAnalyticsScore">
@@ -52,15 +66,19 @@
          }"><span>{{element.NewsAnalyticsScore}}</span></td>
       </ng-container>
 
-      <ng-container matColumnDef="PredictedProbablity">
+      <!-- <ng-container matColumnDef="PredictedProbablity">
         <th mat-header-cell *matHeaderCellDef> Predicted Probablity </th>
         <td mat-cell *matCellDef="let element"> {{element.PredictedProbablity}} </td>
       </ng-container>
   
-      <!-- Symbol Column -->
       <ng-container matColumnDef="CreditRating">
         <th mat-header-cell *matHeaderCellDef> Credit Rating </th>
         <td mat-cell *matCellDef="let element"> {{element.CreditRating}} </td>
+      </ng-container> -->
+
+      <ng-container matColumnDef="PredictedRRR">
+        <th mat-header-cell *matHeaderCellDef> Predicted Rabobank Risk Rating </th>
+        <td mat-cell *matCellDef="let element"> {{element.LatestPD}} </td>
       </ng-container>
 
       <ng-container matColumnDef="LastRefreshTime">
